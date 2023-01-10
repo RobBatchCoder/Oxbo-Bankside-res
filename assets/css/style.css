@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+@import url('https://fonts.cdnfonts.com/css/zen-loop');
+@import url('https://fonts.cdnfonts.com/css/adobe-caslon-pro');
+
+/*----------------------------Headers and fonts-----------------------------*/
+
+
+body {
+    font-family: 'adobe-caslon-pro', sans-serif;
+    color: #2a2623;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'futura-pt';
+    text-transform: uppercase;
+
+}
+
+
+/*----------------------------Nav bar-----------------------------*/
+.navbar-container{
+    height: 10vh;
+    font-family: 'futura-pt', sans-serif;
+    color: #2a2623;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-family: 'zen-loop', sans-serif;
+    font-weight: 200;
+}
+
+.nav-item{
+    padding: 1vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.reserve-button{
+    border: 1px solid black;
+    border-radius: 0;
+    --bs-btn-padding-x: 1.5rem;
+    padding: 1vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+}
