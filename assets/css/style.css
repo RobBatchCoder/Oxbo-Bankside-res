@@ -26,9 +26,15 @@ h6 {
 
 /*----------------------------Nav bar-----------------------------*/
 .navbar-container{
-    height: 10vh;
+    height: 12vh;
     font-family: 'futura-pt', sans-serif;
     color: #2a2623;
+    background-color: #fcf9ef;
+
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0;
 }
 
 .navbar-brand {
@@ -44,6 +50,12 @@ h6 {
     text-transform: uppercase;
     font-size: 16px;
     color: #2a2623;
+
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 .reserve-button{
@@ -64,4 +76,9 @@ h6 {
 
 .hvr-sweep-to-top:hover{
     color: #2a2623 !important;
+}
+
+.nav-link.active{
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
