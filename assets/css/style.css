@@ -2,6 +2,8 @@
 @import url('https://fonts.cdnfonts.com/css/zen-loop');
 @import url('https://fonts.cdnfonts.com/css/adobe-caslon-pro');
 
+@import url("hover-min.css");
+
 /*----------------------------Headers and fonts-----------------------------*/
 
 
@@ -30,9 +32,10 @@ h6 {
 }
 
 .navbar-brand {
-    font-size: 35px;
+    --bs-navbar-brand-font-size: 3.5rem;
     font-family: 'zen-loop', sans-serif;
     font-weight: 200;
+    color: #2a2623;
 }
 
 .nav-item{
@@ -40,6 +43,7 @@ h6 {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 16px;
+    color: #2a2623;
 }
 
 .reserve-button{
@@ -50,4 +54,14 @@ h6 {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 16px;
+    color: #2a2623;
+    --bs-btn-hover-border-color: #2a2623;
+
+}
+.hvr-sweep-to-top::before{
+    background: #e1e000 !important; /* Use of !important to overide default animation color*/
+}
+
+.hvr-sweep-to-top:hover{
+    color: #2a2623 !important;
 }
