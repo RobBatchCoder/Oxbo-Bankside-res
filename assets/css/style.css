@@ -10,6 +10,11 @@
 body {
     font-family: 'adobe-caslon-pro', sans-serif;
     color: #2a2623;
+    background-color: #fcf9ef;
+}
+
+h1 {
+    letter-spacing: 5px;
 }
 
 h1,
@@ -23,6 +28,15 @@ h6 {
 
 }
 
+.center-text{
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 26px;
+}
 
 /*----------------------------Nav bar-----------------------------*/
 .navbar-container{
@@ -94,7 +108,18 @@ img, svg {
     width: 85px;
     background: #e1e000;
     padding: 0;
-    border: 0;
+    border: 15px;
     margin: 15px;
 }
 
+/*----------------------------Home page description-----------------------------*/
+
+.oxbo-description-container{
+    padding-top: 35px;
+
+}
+
+.reserve-button-oxbo-description{
+    margin-top: 5vh;
+
+}
