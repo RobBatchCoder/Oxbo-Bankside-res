@@ -85,7 +85,16 @@ h6 {
 
 /*----------------------------Carousel-----------------------------*/
 
-.d-block {
+img, svg {
+    object-fit: cover;
     height: 88vh;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 85px;
+    background: #e1e000;
+    padding: 0;
+    border: 0;
+    margin: 15px;
 }
 
