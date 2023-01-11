@@ -14,7 +14,8 @@ body {
 }
 
 h1 {
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 45px;
 }
 
 h1,
@@ -36,6 +37,7 @@ p {
     margin-bottom: 10px;
     font-size: 16px;
     line-height: 26px;
+    font-weight: 300;
 }
 
 /*----------------------------Nav bar-----------------------------*/
@@ -122,4 +124,11 @@ img, svg {
 .reserve-button-oxbo-description{
     margin-top: 5vh;
 
+}
+
+/*----------------------------Zebra image-----------------------------*/
+
+
+.zebra-image{
+    margin: 50px 0 50px 0;
 }
