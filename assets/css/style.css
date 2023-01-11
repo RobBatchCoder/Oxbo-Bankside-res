@@ -169,13 +169,21 @@ svg {
 /*-----------------------------Ad cards ---------------------------*/
 
 .ad-cards{
-    height: 22rem;
-    width: 22rem;
+   
     margin: 1rem;
     --bs-card-border-color: 0;
     --bs-card-bg: 0;
 }
 
+.ad-card-body{
+    background-color: #2a2623;
+    color: #fcf9ef;
+}
+
+.ad-card-hr{
+    color: #e1e000;
+    border-width: 2px;
+}
 /*------------------------------Media query---------------------------*/
 
 @media (min-width: 960px) {
