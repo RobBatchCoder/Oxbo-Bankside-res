@@ -166,6 +166,16 @@ svg {
     padding: 35px 0 35px 0;
 }
 
+/*-----------------------------Ad cards ---------------------------*/
+
+.ad-cards{
+    height: 22rem;
+    width: 22rem;
+    margin: 1rem;
+    --bs-card-border-color: 0;
+    --bs-card-bg: 0;
+}
+
 /*------------------------------Media query---------------------------*/
 
 @media (min-width: 960px) {
